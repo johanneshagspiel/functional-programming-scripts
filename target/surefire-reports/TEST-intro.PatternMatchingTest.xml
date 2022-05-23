@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite 
+errors="0" failures="2" hostname="MacBook-Pro-van-Yoshi.local" name="intro.PatternMatchingTest" tests="4" time="0.002" timestamp="2019-08-18T15:40:14">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment">
+    </property>
+    <property 
+    name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib">
+</property>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="NL"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property 
+    name="java.vm.specification.name" value="Java Virtual Machine Specification">
+</property>
+    <property 
+    name="user.dir" value="/Users/Yoshi/Documents/tu/bdp/assignments/templates/fp">
+</property>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment">
+    </property>
+    <property 
+    name="basedir" value="/Users/Yoshi/Documents/tu/bdp/assignments/templates/fp">
+</property>
+    <property 
+    name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/endorsed">
+</property>
+    <property name="os.arch" value="x86_64"/>
+    <property 
+    name="java.io.tmpdir" value="/var/folders/09/l5s7vrb13kb2nj8p95y8g_x80000gn/T/">
+</property>
+    <property name="line.separator" value=" "/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property 
+    name="java.library.path" value="/Users/Yoshi/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.">
+</property>
+    <property 
+    name="java.specification.name" value="Java Platform API Specification">
+</property>
+    <property name="java.class.version" value="52.0"/>
+    <property 
+    name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers">
+</property>
+    <property name="os.version" value="10.14.5"/>
+    <property 
+    name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property name="user.home" value="/Users/Yoshi"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="user.name" value="Yoshi"/>
+    <property 
+    name="java.class.path" value="/Users/Yoshi/Documents/tu/bdp/assignments/templates/fp/target/test-classes:/Users/Yoshi/Documents/tu/bdp/assignments/templates/fp/target/classes:/Users/Yoshi/.m2/repository/org/scala-lang/scala-library/2.12.6/scala-library-2.12.6.jar:/Users/Yoshi/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Yoshi/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/Yoshi/.m2/repository/org/scalatest/scalatest_2.12/3.0.5/scalatest_2.12-3.0.5.jar:/Users/Yoshi/.m2/repository/org/scalactic/scalactic_2.12/3.0.5/scalactic_2.12-3.0.5.jar:/Users/Yoshi/.m2/repository/org/scala-lang/scala-reflect/2.12.4/scala-reflect-2.12.4.jar:/Users/Yoshi/.m2/repository/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar:/Users/Yoshi/.m2/repository/org/specs2/specs2-core_2.12/4.2.0/specs2-core_2.12-4.2.0.jar:/Users/Yoshi/.m2/repository/org/specs2/specs2-matcher_2.12/4.2.0/specs2-matcher_2.12-4.2.0.jar:/Users/Yoshi/.m2/repository/org/specs2/specs2-common_2.12/4.2.0/specs2-common_2.12-4.2.0.jar:/Users/Yoshi/.m2/repository/org/specs2/specs2-fp_2.12/4.2.0/specs2-fp_2.12-4.2.0.jar:/Users/Yoshi/.m2/repository/org/scala-lang/modules/scala-parser-combinators_2.12/1.1.0/scala-parser-combinators_2.12-1.1.0.jar:/Users/Yoshi/.m2/repository/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar:/Users/Yoshi/.m2/repository/org/specs2/specs2-junit_2.12/4.2.0/specs2-junit_2.12-4.2.0.jar:/Users/Yoshi/.m2/repository/org/json4s/json4s-native_2.12/3.6.6/json4s-native_2.12-3.6.6.jar:/Users/Yoshi/.m2/repository/org/json4s/json4s-core_2.12/3.6.6/json4s-core_2.12-3.6.6.jar:/Users/Yoshi/.m2/repository/org/json4s/json4s-ast_2.12/3.6.6/json4s-ast_2.12-3.6.6.jar:/Users/Yoshi/.m2/repository/org/json4s/json4s-scalap_2.12/3.6.6/json4s-scalap_2.12-3.6.6.jar:/Users/Yoshi/.m2/repository/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar:/Users/Yoshi/.m2/repository/org/json4s/json4s-ext_2.12/3.6.6/json4s-ext_2.12-3.6.6.jar:/Users/Yoshi/.m2/repository/joda-time/joda-time/2.10.1/joda-time-2.10.1.jar:/Users/Yoshi/.m2/repository/org/joda/joda-convert/2.2.0/joda-convert-2.2.0.jar">
+</property>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property 
+    name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre">
+</property>
+    <property 
+    name="sun.java.command" value="org.scalatest.tools.Runner -R /Users/Yoshi/Documents/tu/bdp/assignments/templates/fp/target/classes /Users/Yoshi/Documents/tu/bdp/assignments/templates/fp/target/test-classes -o -f /Users/Yoshi/Documents/tu/bdp/assignments/templates/fp/target/surefire-reports/TestSuiteReport.txt -u /Users/Yoshi/Documents/tu/bdp/assignments/templates/fp/target/surefire-reports/.">
+</property>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property 
+    name="java.ext.dirs" value="/Users/Yoshi/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java">
+</property>
+    <property 
+    name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes">
+</property>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property 
+    name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/">
+</property>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property 
+    name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property 
+    name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16">
+</property>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Sum" classname="intro.PatternMatchingTest" time="0.001">
+  </testcase>
+  <testcase 
+  name="Optional sum" classname="intro.PatternMatchingTest" time="0.0">
+</testcase>
+  <testcase 
+  name="FirstDivBy example" classname="intro.PatternMatchingTest" time="0.0">
+    <failure 
+    message="an implementation is missing" type="class scala.NotImplementedError">
+      scala.NotImplementedError: an implementation is missing
+      at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)
+      at intro.PatternMatching$.firstDivByX(PatternMatching.scala:72)
+      at intro.PatternMatchingTest.$anonfun$new$3(PatternMatchingTest.scala:22)
+      at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+      at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+      at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+      at org.scalatest.Transformer.apply(Transformer.scala:22)
+      at org.scalatest.Transformer.apply(Transformer.scala:20)
+      at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+      at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+      at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+      at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+      at org.scalatest.FunSuiteLike.invokeWithFixture$1(FunSuiteLike.scala:184)
+      at org.scalatest.FunSuiteLike.$anonfun$runTest$1(FunSuiteLike.scala:196)
+      at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+      at org.scalatest.FunSuiteLike.runTest(FunSuiteLike.scala:196)
+      at org.scalatest.FunSuiteLike.runTest$(FunSuiteLike.scala:178)
+      at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+      at org.scalatest.FunSuiteLike.$anonfun$runTests$1(FunSuiteLike.scala:229)
+      at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+      at scala.collection.immutable.List.foreach(List.scala:389)
+      at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+      at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+      at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+      at org.scalatest.FunSuiteLike.runTests(FunSuiteLike.scala:229)
+      at org.scalatest.FunSuiteLike.runTests$(FunSuiteLike.scala:228)
+      at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+      at org.scalatest.Suite.run(Suite.scala:1147)
+      at org.scalatest.Suite.run$(Suite.scala:1129)
+      at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+      at org.scalatest.FunSuiteLike.$anonfun$run$1(FunSuiteLike.scala:233)
+      at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+      at org.scalatest.FunSuiteLike.run(FunSuiteLike.scala:233)
+      at org.scalatest.FunSuiteLike.run$(FunSuiteLike.scala:232)
+      at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+      at org.scalatest.Suite.callExecuteOnSuite$1(Suite.scala:1210)
+      at org.scalatest.Suite.$anonfun$runNestedSuites$1(Suite.scala:1257)
+      at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:32)
+      at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:29)
+      at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:194)
+      at org.scalatest.Suite.runNestedSuites(Suite.scala:1255)
+      at org.scalatest.Suite.runNestedSuites$(Suite.scala:1189)
+      at org.scalatest.tools.DiscoverySuite.runNestedSuites(DiscoverySuite.scala:30)
+      at org.scalatest.Suite.run(Suite.scala:1144)
+      at org.scalatest.Suite.run$(Suite.scala:1129)
+      at org.scalatest.tools.DiscoverySuite.run(DiscoverySuite.scala:30)
+      at org.scalatest.tools.SuiteRunner.run(SuiteRunner.scala:45)
+      at org.scalatest.tools.Runner$.$anonfun$doRunRunRunDaDoRunRun$13(Runner.scala:1346)
+      at org.scalatest.tools.Runner$.$anonfun$doRunRunRunDaDoRunRun$13$adapted(Runner.scala:1340)
+      at scala.collection.immutable.List.foreach(List.scala:389)
+      at org.scalatest.tools.Runner$.doRunRunRunDaDoRunRun(Runner.scala:1340)
+      at org.scalatest.tools.Runner$.$anonfun$runOptionallyWithPassFailReporter$24(Runner.scala:1031)
+      at org.scalatest.tools.Runner$.$anonfun$runOptionallyWithPassFailReporter$24$adapted(Runner.scala:1010)
+      at org.scalatest.tools.Runner$.withClassLoaderAndDispatchReporter(Runner.scala:1506)
+      at org.scalatest.tools.Runner$.runOptionallyWithPassFailReporter(Runner.scala:1010)
+      at org.scalatest.tools.Runner$.main(Runner.scala:827)
+      at org.scalatest.tools.Runner.main(Runner.scala)
+</failure>
+</testcase>
+  <testcase 
+  name="EvenNumbers example" classname="intro.PatternMatchingTest" time="0.0">
+    <failure 
+    message="an implementation is missing" type="class scala.NotImplementedError">
+      scala.NotImplementedError: an implementation is missing
+      at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)
+      at intro.PatternMatching$.onlyEvenNumbers(PatternMatching.scala:80)
+      at intro.PatternMatchingTest.$anonfun$new$4(PatternMatchingTest.scala:28)
+      at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)
+      at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)
+      at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+      at org.scalatest.Transformer.apply(Transformer.scala:22)
+      at org.scalatest.Transformer.apply(Transformer.scala:20)
+      at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+      at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)
+      at org.scalatest.TestSuite.withFixture$(TestSuite.scala:195)
+      at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+      at org.scalatest.FunSuiteLike.invokeWithFixture$1(FunSuiteLike.scala:184)
+      at org.scalatest.FunSuiteLike.$anonfun$runTest$1(FunSuiteLike.scala:196)
+      at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+      at org.scalatest.FunSuiteLike.runTest(FunSuiteLike.scala:196)
+      at org.scalatest.FunSuiteLike.runTest$(FunSuiteLike.scala:178)
+      at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+      at org.scalatest.FunSuiteLike.$anonfun$runTests$1(FunSuiteLike.scala:229)
+      at org.scalatest.SuperEngine.$anonfun$runTestsInBranch$1(Engine.scala:396)
+      at scala.collection.immutable.List.foreach(List.scala:389)
+      at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+      at org.scalatest.SuperEngine.runTestsInBranch(Engine.scala:379)
+      at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+      at org.scalatest.FunSuiteLike.runTests(FunSuiteLike.scala:229)
+      at org.scalatest.FunSuiteLike.runTests$(FunSuiteLike.scala:228)
+      at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+      at org.scalatest.Suite.run(Suite.scala:1147)
+      at org.scalatest.Suite.run$(Suite.scala:1129)
+      at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+      at org.scalatest.FunSuiteLike.$anonfun$run$1(FunSuiteLike.scala:233)
+      at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+      at org.scalatest.FunSuiteLike.run(FunSuiteLike.scala:233)
+      at org.scalatest.FunSuiteLike.run$(FunSuiteLike.scala:232)
+      at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+      at org.scalatest.Suite.callExecuteOnSuite$1(Suite.scala:1210)
+      at org.scalatest.Suite.$anonfun$runNestedSuites$1(Suite.scala:1257)
+      at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:32)
+      at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:29)
+      at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:194)
+      at org.scalatest.Suite.runNestedSuites(Suite.scala:1255)
+      at org.scalatest.Suite.runNestedSuites$(Suite.scala:1189)
+      at org.scalatest.tools.DiscoverySuite.runNestedSuites(DiscoverySuite.scala:30)
+      at org.scalatest.Suite.run(Suite.scala:1144)
+      at org.scalatest.Suite.run$(Suite.scala:1129)
+      at org.scalatest.tools.DiscoverySuite.run(DiscoverySuite.scala:30)
+      at org.scalatest.tools.SuiteRunner.run(SuiteRunner.scala:45)
+      at org.scalatest.tools.Runner$.$anonfun$doRunRunRunDaDoRunRun$13(Runner.scala:1346)
+      at org.scalatest.tools.Runner$.$anonfun$doRunRunRunDaDoRunRun$13$adapted(Runner.scala:1340)
+      at scala.collection.immutable.List.foreach(List.scala:389)
+      at org.scalatest.tools.Runner$.doRunRunRunDaDoRunRun(Runner.scala:1340)
+      at org.scalatest.tools.Runner$.$anonfun$runOptionallyWithPassFailReporter$24(Runner.scala:1031)
+      at org.scalatest.tools.Runner$.$anonfun$runOptionallyWithPassFailReporter$24$adapted(Runner.scala:1010)
+      at org.scalatest.tools.Runner$.withClassLoaderAndDispatchReporter(Runner.scala:1506)
+      at org.scalatest.tools.Runner$.runOptionallyWithPassFailReporter(Runner.scala:1010)
+      at org.scalatest.tools.Runner$.main(Runner.scala:827)
+      at org.scalatest.tools.Runner.main(Runner.scala)
+</failure>
+</testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

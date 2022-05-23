@@ -1,0 +1,278 @@
+[36mDiscovery starting.[0m
+[36mDiscovery completed in 1 second, 732 milliseconds.[0m
+[36mRun starting. Expected test count is: 30[0m
+[32mDatasetTest:[0m
+[31m- Average additions *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at dataset.Dataset$.avgAdditions(Dataset.scala:21)[0m
+[31m  at dataset.DatasetTest.$anonfun$new$1(DatasetTest.scala:21)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Time of day javascript *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at dataset.Dataset$.jsTime(Dataset.scala:28)[0m
+[31m  at dataset.DatasetTest.$anonfun$new$2(DatasetTest.scala:27)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Top committer *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at dataset.Dataset$.topCommitter(Dataset.scala:37)[0m
+[31m  at dataset.DatasetTest.$anonfun$new$3(DatasetTest.scala:33)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Commits per repo *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at dataset.Dataset$.commitsPerRepo(Dataset.scala:48)[0m
+[31m  at dataset.DatasetTest.$anonfun$new$4(DatasetTest.scala:45)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Top languages *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at dataset.Dataset$.topFileFormats(Dataset.scala:55)[0m
+[31m  at dataset.DatasetTest.$anonfun$new$5(DatasetTest.scala:51)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[32mListsTest:[0m
+[31m- Example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at intro.Lists$.customAverage(Lists.scala:62)[0m
+[31m  at intro.ListsTest.$anonfun$new$1(ListsTest.scala:11)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[32mExampleSpec:[0m
+[32mAn ArrayStack[0m
+[32m- should pop values in last-in-first-out order[0m
+[32m- should throw RuntimeException if an empty array stack is popped[0m
+[32mFPFunctionsTest:[0m
+[31m- Map default *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_functions.FPFunctions$.map(FPFunctions.scala:18)[0m
+[31m  at fp_functions.FPFunctionsTest.$anonfun$new$1(FPFunctionsTest.scala:10)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Filter example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_functions.FPFunctions$.filter(FPFunctions.scala:27)[0m
+[31m  at fp_functions.FPFunctionsTest.$anonfun$new$3(FPFunctionsTest.scala:16)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Flatten example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_functions.FPFunctions$.recFlat(FPFunctions.scala:36)[0m
+[31m  at fp_functions.FPFunctionsTest.$anonfun$new$5(FPFunctionsTest.scala:22)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- FoldL example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_functions.FPFunctions$.foldL(FPFunctions.scala:47)[0m
+[31m  at fp_functions.FPFunctionsTest.$anonfun$new$6(FPFunctionsTest.scala:28)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- FoldR example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_functions.FPFunctions$.foldR(FPFunctions.scala:60)[0m
+[31m  at fp_functions.FPFunctionsTest.$anonfun$new$8(FPFunctionsTest.scala:34)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Zip example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_functions.FPFunctions$.zip(FPFunctions.scala:70)[0m
+[31m  at fp_functions.FPFunctionsTest.$anonfun$new$10(FPFunctionsTest.scala:40)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[32mFPPracticeTest:[0m
+[31m- First 10 example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_practice.FPPractice$.first10Above25(FPPractice.scala:14)[0m
+[31m  at fp_practice.FPPracticeTest.$anonfun$new$1(FPPracticeTest.scala:12)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Passing grades example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_practice.FPPractice$.passingStudents(FPPractice.scala:24)[0m
+[31m  at fp_practice.FPPracticeTest.$anonfun$new$2(FPPracticeTest.scala:24)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- Head sums tail example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at fp_practice.FPPractice$.headSumsTail(FPPractice.scala:32)[0m
+[31m  at fp_practice.FPPracticeTest.$anonfun$new$3(FPPracticeTest.scala:35)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[32mFunctionsTest:[0m
+[32m- Simple math[0m
+[32m- More math[0m
+[31m- Fizz *** FAILED ***[0m
+[31m  Expected "Fizz", but got <(), the Unit value> (FunctionsTest.scala:22)[0m
+[31m- Buzz *** FAILED ***[0m
+[31m  Expected "Buzz", but got <(), the Unit value> (FunctionsTest.scala:29)[0m
+[32mPatternMatchingTest:[0m
+[32m- Sum[0m
+[32m- Optional sum[0m
+[31m- FirstDivBy example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at intro.PatternMatching$.firstDivByX(PatternMatching.scala:72)[0m
+[31m  at intro.PatternMatchingTest.$anonfun$new$3(PatternMatchingTest.scala:22)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- EvenNumbers example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at intro.PatternMatching$.onlyEvenNumbers(PatternMatching.scala:80)[0m
+[31m  at intro.PatternMatchingTest.$anonfun$new$4(PatternMatchingTest.scala:28)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[32mPracticeTest:[0m
+[31m- FirstN example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at intro.Practice$.firstN(Practice.scala:17)[0m
+[31m  at intro.PracticeTest.$anonfun$new$1(PracticeTest.scala:10)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[31m- MaxValue example *** FAILED ***[0m
+[31m  scala.NotImplementedError: an implementation is missing[0m
+[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m
+[31m  at intro.Practice$.maxValue(Practice.scala:26)[0m
+[31m  at intro.PracticeTest.$anonfun$new$2(PracticeTest.scala:16)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m
+[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m
+[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m
+[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m
+[31m  at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)[0m
+[31m  at org.scalatest.TestSuite.withFixture(TestSuite.scala:196)[0m
+[31m  ...[0m
+[32mListSuite:[0m
+[32m- An empty list should be empty[0m
+[32m- A non-empty list should not be empty[0m
+[32m- A list's length should equal the number of elements it contains[0m
+[36mRun completed in 2 seconds.[0m
+[36mTotal number of tests run: 30[0m
+[36mSuites: completed 10, aborted 0[0m
+[36mTests: succeeded 9, failed 21, canceled 0, ignored 0, pending 0[0m
+[31m*** 21 TESTS FAILED ***[0m
