@@ -90,7 +90,7 @@ object Dataset {
         }
 
         def helperHour(intList: List[Int]): (Int, Int) = {
-            val intTuple = intList.groupBy(identity).mapValues(_.size).s
+            val intTuple = intList.groupBy(identity).mapValues(_.size)
             val result = intTuple.maxBy(_._2)
             result
         }
