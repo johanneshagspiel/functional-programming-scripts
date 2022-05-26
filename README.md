@@ -8,7 +8,7 @@
 
 # Functional Programming Scripts
 
-This repository contains a number of scala scripts used to get familiar with the basics of functional programming.
+This repository contains a collection of Scala scripts used to get familiar with the basics of functional programming.
 
 ## Features
 
