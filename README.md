@@ -12,9 +12,11 @@ This repository contains a number of scala scripts used to get familiar with the
 
 ## Features
 
-These scripts cover a range of topics such as:
+These scripts cover a range of topics of functional programming such as:
 
-- 
+- the basics of the Scala programming language like pattern matching or list operations
+- re-implementation of foundational higher order functions like map, filter, zip or foldL
+- manipulating datasets
 
 ## Tools
 
@@ -24,9 +26,10 @@ These scripts cover a range of topics such as:
 
 ## Installation Process
 
-It is assumed that the users operating system is Windows.
+It is assumed that both a [Java JDK](https://openjdk.org/) and an IDE such as [IntelliJ](https://www.jetbrains.com/idea/) are installed and that the users operating system is Windows.
 
-- 
+- Install the Scala support plugin for your IDE.
+- Import this repository as a Maven project and resolve all dependencies.
 
 ## Contributors
 
@@ -38,4 +41,4 @@ These functional programming scripts are published under the MIT licence, which 
 
 ## References
 
-The logo was taken from [Wikipedia](https://de.m.wikipedia.org/wiki/Datei:Gnu-bash-logo.svg). 
+The logo was taken from [Wikipedia](https://de.wikipedia.org/wiki/Scala_(Programmiersprache)#/media/Datei:Scala-full-color.svg). 

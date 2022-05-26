@@ -54,10 +54,6 @@ object Dataset {
             val fileList: List[Date] = helperUnpack(jsList).flatten
             val intList: List[Int] = fileList.map(date => helperTimezone(date))
 
-//            val intList: List[Int] = fileList.map(commit => commit.commit.committer.date).map(date => helperTimezone(date))
-
-//            val fileList = jsList.map(commit => commit.commit.author.date).map(date => helperTimezone(date))
-
             intList
         }
 
@@ -145,8 +141,7 @@ object Dataset {
       */
     def commitsPerRepo(input: List[Commit]): Map[String, Int] = {
 
-        val repo2019 = input.filter(commit => (helperDate(commit.commit.committer.date) == 2019)).map(commit => repositoryHelper(commit))
-//        val repo2019 = input.map(commit => repositoryHelper(commit))
+        val repo2019 = input.filter(commit => helperDate(commit.commit.committer.date) == 2019).map(commit => repositoryHelper(commit))
         val result = repo2019.groupBy(identity).mapValues(_.size)
         collection.mutable.Map() ++ result
     }

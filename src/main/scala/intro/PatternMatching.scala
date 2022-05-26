@@ -94,9 +94,10 @@ object PatternMatching {
     }
 
     def main(args: Array[String]): Unit = {
-        val three = 1 :: 2 :: 3 :: 4 :: 5 :: 6 :: Nil
-        val four: List[OptionalNum] = Num(3) :: Nothing() :: Num(2) :: Num(4) :: Nil
-        firstDivByX(three, 2)
-        print(onlyEvenNumbers(four))
+        val test_1 = 1 :: 2 :: 3 :: 4 :: 5 :: 6 :: Nil
+        val test_2: List[OptionalNum] = Num(3) :: Nothing() :: Num(2) :: Num(4) :: Nil
+
+        println(firstDivByX(test_1, 2))
+        print(onlyEvenNumbers(test_2))
     }
 }
