@@ -1,4 +1,4 @@
-<img src=resources/scala_logo.png alt="Scala Logo" width="256" height="117">
+<img src=img/scala_logo.png alt="Scala Logo" width="256" height="117">
 
 --------------------------------------------------------------------------------
 [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
